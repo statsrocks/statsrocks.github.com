@@ -1,0 +1,36 @@
+# Dependencies
+markdown: redcarpet
+pygments: true
+lsi: false
+redcarpet:
+  extensions:
+    - with_toc_data
+    - hard_wrap
+    - no_intra_emphasis
+    - tables
+    - fenced_code_blocks
+    - autolink
+
+# Gem plugins
+gems:
+  - jekyll-mentions
+  - jemoji
+  - jekyll-redirect-from
+  - jekyll-sitemap
+
+# Permalinks
+permalink: /:year/:month/:title.html
+
+# Setup
+title: Statistics Rocks!
+tagline: "Let's predict the future."
+description: 'StatisticsRocks shares statistics-related knowledges.'
+url: http://lanyon.getpoole.com # site.url variables in atom.xml
+
+author:
+  name: 
+  url: 
+
+paginate: 10
+
+# Custom vars
