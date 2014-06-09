@@ -24,8 +24,13 @@ layout: nil
     <content type="html">{{ post.content | xml_escape }}</content>
     <author>
       {% if post.author %}
+      {% if post.author.name %}
       <name>{{ post.author.name }}</name>
       <email>{{ post.author.email }}</email>
+      {% else %}
+      <name>{{ post.author }}</name>
+      <email></email>
+      {% endif %}
       {% else %}
       <name>{{ site.author.name }}</name>
       <email>{{ site.author.email }}</email>

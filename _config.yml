@@ -1,6 +1,6 @@
 # Dependencies
 markdown: redcarpet
-pygments: true
+highlighter: pygments
 lsi: false
 redcarpet:
   extensions:
@@ -28,8 +28,8 @@ description: 'StatisticsRocks shares statistics-related knowledges.'
 url: http://www.statsrocks.com # site.url variables in atom.xml
 
 author:
-  name: 
-  url: 
+  name:
+  url:
 
 paginate: 10
 
